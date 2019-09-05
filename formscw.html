@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="container">
+    <form>
+        <h1>User Registration Form</h1>
+        <feildset>
+            <legend>User Information</legend>
+            <section>
+                <label for="email">Email:</label>
+                <input type="email" id="email"required>
+            </section>
+            <section>
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname"required>
+            </section>
+            <section>
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname"required>
+            </section>
+            <section>
+                <label for="pass">Password:</label>
+                <input type="password" id="pass"required>
+            </section>
+
+            <fieldset>
+                <legend>Optional Information</legend>
+                <input type="checkbox" id="cb" name="cb1"  required>
+                <label for="cb">Male</label>
+                <input type="checkbox" id="cb2" name="cb2"  required>
+                <label for="cb2">Female</label>
+                <input type="checkbox" id="cb3" name="cb1" checked required>
+                <label for="cb3">Prefer not to say</label>
+                <div>
+                    <label for="bday">Birthday</label>
+                    <input type="date" id="bday" placeholder="mm/dd/yyy">
+                </div>
+
+            </fieldset>
+        </feildset>
+        <input type="checkbox" id="check" name="checkb"  required>
+        <label for="check">I agree to the terms and conditions</label>
+        <input type="submit" value="Submit Form"/>
+    </form>
+
+</div>
+</body>
+</html>
