@@ -1,5 +1,6 @@
+Score : 3
 # HTML Input 2 CW
-
+#### Partial : no fieldset for user information, gender should be radio button not checkbox
 Duplicate the form depicted in the included image. Note the following:
 
 * Use placeholders (hints) where shown
